@@ -30,22 +30,67 @@
 
 <div class='grid-container'>
     <div class='header'>
-      <nav>
-        <a href="#" class="logo"></a>
-        <a href="#" class="link"></a>
-        <a href="#" class="link"></a>
-        <a href="#" class="link"></a>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img class="logo-img" src="img/logo.svg" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-      <h1></h1>
-      <h3></h3>
+      <div class="container-fluid">
+        <div class="hero-container js-tilt" data-aos="fade" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
+          <h1 class="hero mx-auto">BH TELECO<span class="no-spacing">M</span></h1>
+          <h2 class="subhero mx-auto">CLOUD USLUGE</h2>
+        </div>
+        <div class="fullscreen-bg">
+            <video loop muted autoplay class="fullscreen-bg__video">
+                <source src="https://aptours.ba/bht/video/intro.mp4" type="video/mp4">
+            </video>
+        </div>
+      </div>
+      <hr class="big-bold" />
     </div>
-    <div class='square lvs2'></div>
-    <div class='square c'></div>
-    <div class='square c1'></div>
-    <div class='square r'></div>
-    <div class='square r1'></div>
-    <div class='square l'></div>
-    <div class='square rhs2'></div>
+    <div class='lvs2'>
+      <div class="square-container gray-background">
+        <h3 class="squared js-tilt" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">CLOUD<br/>USLUGE</h3>
+      </div>      
+    </div>
+    <div class='c'>
+      <div>
+        <div id="demo" style="padding-top: 170px; padding-left: 60px; padding-right: 60px;" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
+            <div class="line-grad"></div>
+            <p>Cloud znači da vaša IT infrastruktura više nije u vašem uredu već se nalazi na sigurnim serverima. Cloud usluge smanjuju troškove održavanja skupe informatičke opreme, a inovativnim poslovnim rješenjima štede i ostale resurse vaše kompanije.  </p>
+        </div>
+        <div class="contenthover" style="padding-top: 170px; padding-left: 60px; padding-right: 60px;">
+          <div>
+            <h3 style="color:#fff">Lorem ipsum dolor</h3>
+            <p style="color:#fff">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+            <button type="button" class="btn btn-secondary btn-lg" style="background: -webkit-linear-gradient(left, #FE8301, #fca000); border-radius: 0; padding-left: 30px; padding-right: 30px;">Više</button>
+          </div>
+        </div>
+      </div>      
+    </div>
+    <div class='c1'>
+         
+    </div>
+    <div class='r'>
+      <img class="img-fluid" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" src="img/Layer 30.png" />   
+    </div>
+    <div class='r1'></div>
+    <div class='l'></div>
+    <div class='rhs2'></div>
     <div class='partners'></div>
     <div class='panorama'></div>
     <div class='testimonials'></div>
@@ -78,11 +123,11 @@
 
 <script>
 
-/*
+
 
 $('.paroller').paroller();
 
-$('.js-tilt').tilt();
+/* $('.js-tilt').tilt(); */
 
 AOS.init();
 
@@ -100,7 +145,7 @@ $('#slick-slider').slick({
   arrows: false
 }); 
 
-*/
+
 
 </script>
 
