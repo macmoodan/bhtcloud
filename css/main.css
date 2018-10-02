@@ -54,6 +54,9 @@ html, body {
   }
 }
 @media (max-width: 480px) {
+  .grid-container > div {
+    width: 100vw;
+  }
   .grid-container {
        display: grid;
        height: 100%;
