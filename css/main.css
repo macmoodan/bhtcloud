@@ -6,8 +6,12 @@ html, body {
      margin: 0;
      height: 100% 
 }
+<<<<<<< HEAD
 
  .grid-container * {
+=======
+/* .grid-container * {
+>>>>>>> 5adbe6767435abd791567dff44235928d041f4a2
      border: 1px solid #ccc;
 }
 .grid-container div:after {
@@ -19,6 +23,7 @@ html, body {
      height: 100%;
      font-family: arial;
 }
+*/
 .grid-container {
      display: grid;
      height: 100%;
