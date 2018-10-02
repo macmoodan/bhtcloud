@@ -6,7 +6,7 @@ html, body {
      margin: 0;
      height: 100% 
 }
-
+/*
  .grid-container * {
      border: 1px solid #ccc;
 }
@@ -19,6 +19,7 @@ html, body {
      height: 100%;
      font-family: arial;
 }
+*/
 .grid-container {
      display: grid;
      height: 100%;
