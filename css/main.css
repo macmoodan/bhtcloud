@@ -6,6 +6,7 @@ html, body {
      margin: 0;
      height: 100% 
 }
+
  .grid-container * {
      border: 1px solid #ccc;
 }
@@ -24,7 +25,55 @@ html, body {
      grid-template-columns: 1fr 1fr 1fr;
      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
      grid-gap: 0px;
-     grid-template-areas: 'header header header' 'lvs2 c r' 'lvs2 c1 r1' 'l rhs2 rhs2' 'partners partners partners' 'panorama panorama panorama' 'testimonials testimonials testimonials' 'footer footer footer';
+     grid-template-areas:'header header header'
+                         'lvs2 c r'
+                         'lvs2 c1 r1'
+                         'l rhs2 rhs2'
+                         'partners partners partners'
+                         'panorama panorama panorama'
+                         'testimonials testimonials testimonials'
+                         'footer footer footer';
+}
+@media (max-width: 768px) {
+  .grid-container {
+     display: grid;
+     height: 100%;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+     grid-gap: 0px;
+     grid-template-areas:'header header'
+                         'lvs2 c'
+                         'lvs2 r'
+                         'c1 r1'
+                         'l l'
+                         'rhs2 rhs2'
+                         'partners partners'
+                         'panorama panorama'
+                         'testimonials testimonials'
+                         'footer footer';
+  }
+}
+@media (max-width: 480px) {
+  .grid-container {
+       display: grid;
+       height: 100%;
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+       grid-gap: 0px;
+       grid-template-areas:'header'
+                           'lvs2'
+                           'lvs2'
+                           'c'
+                           'r'
+                           'c1'
+                           'r1'
+                           'l'
+                           'rhs2'
+                           'partners'
+                           'panorama'
+                           'testimonials'
+                           'footer';
+  }
 }
 .header {
      grid-area: header;
@@ -62,7 +111,10 @@ html, body {
 .footer {
      grid-area: footer;
 }
-
+.square {
+  min-width: 300px;
+  float: left;
+}
 
 
 
