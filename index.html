@@ -29,8 +29,42 @@
   <!-- Add your site or application content here -->
 
 <div class='grid-container'>
-    <div class='header'></div>
-    <div class='lvs2'></div>
+    <div class='header'>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img class="logo-img" src="img/logo.svg" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div class="hero-container js-tilt" data-aos="fade" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
+          <h1 class="hero mx-auto">BH TELECO<span class="no-spacing">M</span></h1>
+          <h2 class="subhero mx-auto">CLOUD USLUGE</h2>
+        </div>
+        <div class="fullscreen-bg">
+            <video loop muted autoplay class="fullscreen-bg__video">
+                <source src="https://aptours.ba/bht/video/intro.mp4" type="video/mp4">
+            </video>
+        </div>
+      </div>
+      <hr class="big-bold" />
+    </div>
+    <div class='lvs2'>
+      
+    </div>
     <div class='c'></div>
     <div class='c1'></div>
     <div class='r'></div>
@@ -69,11 +103,11 @@
 
 <script>
 
-/*
+
 
 $('.paroller').paroller();
 
-$('.js-tilt').tilt();
+/* $('.js-tilt').tilt(); */
 
 AOS.init();
 
@@ -91,7 +125,7 @@ $('#slick-slider').slick({
   arrows: false
 }); 
 
-*/
+
 
 </script>
 
